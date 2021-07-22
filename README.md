@@ -4,3 +4,11 @@ Excel file with ISBN column to do the search.
 ## OUTPUT
 Same input file with more columns.
 
+### build
+```
+docker build -t pilot_test .
+```
+### run
+```
+docker run -it --rm -v book_names_web_scrap/:book_names_web_scrap/  python /home/jovyan/work/web_s.py
+```

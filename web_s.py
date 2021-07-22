@@ -47,5 +47,5 @@ todo = pd.DataFrame({"ISBN": ISBN, "autor": autores, "titulo": titulos})
 print(todo)
 
 #para guardar el archivo como un csv en el path que quieras
-todo.to_csv("path_deseado_del_archivo_de_salida")
+todo.to_csv("book_names_web_scrap/path_deseado_del_archivo_de_salida")
     
