@@ -6,9 +6,9 @@ Same input file with more columns.
 
 ### build
 ```
-docker build -t pilot_test .
+docker build -t book_names_web_scrap .
 ```
 ### run
 ```
-docker run -it --rm -v book_names_web_scrap/:book_names_web_scrap/  python /home/jovyan/work/web_s.py
+docker run -it --rm -v book_names_web_scrap/:book_names_web_scrap/ book_names_web_scrap python /home/jovyan/work/web_s.py
 ```
